@@ -1,0 +1,329 @@
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+.logo{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.banner{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+.containerMine{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #0B3847;
+}
+  
+.btn {
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    /*display: inline-block;*/
+    color: #DCAE26;
+}
+
+.button{
+    background-color: #DCAE26;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #00303F;
+}
+.description{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.downloadBtn{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.pricing{
+    padding-top: 32px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.details{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.more{
+    display: inline;
+    margin-bottom: 10px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.spacer{
+    height: 40px;
+}
+
+/*This is for product main features*/
+
+/*.productFeatures{
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    background-color: #0B3847;
+    text-align: center;
+    
+}
+.feature {
+    width: 20%;
+    padding: 2px;
+    display: inline-block;
+}
+.feature {
+    width: 20%;
+    padding: 2px;
+    display: inline-block;
+}
+
+.feature p{
+    color: #DCAE26;
+    text-align: center;
+    padding-top: 16px;
+}*/
+.productFeatures{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: #0B3847;
+    text-align: center;
+    
+}
+
+.feature {
+    width: 20%;
+    margin: 20px;
+    padding: auto;
+    display: inline-block;
+}
+
+.feature p{
+    color: #DCAE26;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 90%;
+}
+
+.feature i{
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+/*product display*/
+.productScreenshots{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.screenshot{
+    width: 20%;
+    padding: 20px;
+    display: inline-block;
+}
+
+/*Admin page*/
+.admin{
+    height: 800px;
+    width: 100%;
+    background-color: #0B3847;
+    margin: auto;
+    padding: 0px;
+    position: relative;
+    margin-top: 2px;
+}
+
+.page{
+    background-color: #fff;
+    height: 92%;
+    width: 96%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/*.frame{
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #777;
+}
+iframe{
+    display: block;
+}top is original,bottom is edited
+*/
+.frame{
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+    background-color: #777;
+}
+iframe{
+    display: inline;
+}
+
+h2{
+    font-size: 20px;
+    padding-left: 16px;
+    padding-top: 32px;
+}
+
+.addBtn{
+    padding-left: 16px;
+    margin: auto;
+    text-align: left;
+}
+
+.adminButton{
+    background-color: #0B3847;
+    border: none;
+    color: #DCAE26;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*footer code \/.*/
+.footerContainer{
+    background-color: #DDB84B;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-col{
+    display: block;
+}
+
+.footer-col-2{
+    text-align: center;
+    display: inline;
+}
+
+.footerContainer h3{
+    color: #0B3847;
+}
+
+.footerContainer p{
+    color: #0B3847;
+}
+
+/*
+    footer admin
+*/
+.footerContainer_admin{
+    background-color:#00303F;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-col_admin{
+    display: block;
+}
+
+.footer-col-2_admin{
+    text-align: center;
+    display: inline;
+}
+
+.footerContainer_admin h3{
+    color: #DCAE26;
+}
+
+.footerContainer_admin p{
+    color: #DCAE26;
+}
+
+.container_admin{
+    background-color:#00303F;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 600px;
+}
+
+.container_admin_text{
+    
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) 
+{ /* for screen size less or equal to 320px*/
+    p{
+        font-size: 80%; /*Changes as per your requirement*/
+    }    
+}
+
+@media screen and (max-width: 700px) 
+{ /* for screen size less or equal to 700px*/
+    p{
+        font-size: 120%; /*Changes as per your requirement*/
+    } 
+}
